@@ -6,7 +6,7 @@ This is a simple wrapper to authenticate against the NinjaRMM API with Python.
 - base64
 - hashlib
 - hmac
-## Useage
+## Usage
 An example to get all customers is included.
 The API documentation can be found [here](https://www.ninjarmm.com/dev-api).
 Remember that the API limits are quite severe - apparently List API requests are expensive and they have limited these to 10 in every 10 minute period. Entity queries are a bit better, with 10 allowed per minute.
